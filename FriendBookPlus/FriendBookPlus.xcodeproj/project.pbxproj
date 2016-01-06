@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86C4FDD11C3D76CA0089F781 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C4FDD01C3D76CA0089F781 /* AppDelegate.swift */; };
+		86C4FDD31C3D76CA0089F781 /* FriendListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C4FDD21C3D76CA0089F781 /* FriendListViewController.swift */; };
+		86C4FDD61C3D76CA0089F781 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86C4FDD41C3D76CA0089F781 /* Main.storyboard */; };
+		86C4FDD81C3D76CA0089F781 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86C4FDD71C3D76CA0089F781 /* Assets.xcassets */; };
+		86C4FDDB1C3D76CA0089F781 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86C4FDD91C3D76CA0089F781 /* LaunchScreen.storyboard */; };
+		86C4FDE61C3D76CA0089F781 /* FriendBookPlusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C4FDE51C3D76CA0089F781 /* FriendBookPlusTests.swift */; };
+		86C4FDF11C3D76CA0089F781 /* FriendBookPlusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C4FDF01C3D76CA0089F781 /* FriendBookPlusUITests.swift */; };
+		86C4FDFF1C3D7F7E0089F781 /* FriendDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C4FDFE1C3D7F7E0089F781 /* FriendDetailViewController.swift */; };
+		86C4FE011C3D83690089F781 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C4FE001C3D83690089F781 /* Friend.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86C4FDE21C3D76CA0089F781 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86C4FDC51C3D76CA0089F781 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86C4FDCC1C3D76CA0089F781;
+			remoteInfo = FriendBookPlus;
+		};
+		86C4FDED1C3D76CA0089F781 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86C4FDC51C3D76CA0089F781 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86C4FDCC1C3D76CA0089F781;
+			remoteInfo = FriendBookPlus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		86C4FDCD1C3D76CA0089F781 /* FriendBookPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FriendBookPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86C4FDD01C3D76CA0089F781 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		86C4FDD21C3D76CA0089F781 /* FriendListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListViewController.swift; sourceTree = "<group>"; };
+		86C4FDD51C3D76CA0089F781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86C4FDD71C3D76CA0089F781 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86C4FDDA1C3D76CA0089F781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86C4FDDC1C3D76CA0089F781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86C4FDE11C3D76CA0089F781 /* FriendBookPlusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FriendBookPlusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86C4FDE51C3D76CA0089F781 /* FriendBookPlusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendBookPlusTests.swift; sourceTree = "<group>"; };
+		86C4FDE71C3D76CA0089F781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86C4FDEC1C3D76CA0089F781 /* FriendBookPlusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FriendBookPlusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86C4FDF01C3D76CA0089F781 /* FriendBookPlusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendBookPlusUITests.swift; sourceTree = "<group>"; };
+		86C4FDF21C3D76CA0089F781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86C4FDFE1C3D7F7E0089F781 /* FriendDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendDetailViewController.swift; sourceTree = "<group>"; };
+		86C4FE001C3D83690089F781 /* Friend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86C4FDCA1C3D76CA0089F781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86C4FDDE1C3D76CA0089F781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86C4FDE91C3D76CA0089F781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86C4FDC41C3D76CA0089F781 = {
+			isa = PBXGroup;
+			children = (
+				86C4FDCF1C3D76CA0089F781 /* FriendBookPlus */,
+				86C4FDE41C3D76CA0089F781 /* FriendBookPlusTests */,
+				86C4FDEF1C3D76CA0089F781 /* FriendBookPlusUITests */,
+				86C4FDCE1C3D76CA0089F781 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86C4FDCE1C3D76CA0089F781 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86C4FDCD1C3D76CA0089F781 /* FriendBookPlus.app */,
+				86C4FDE11C3D76CA0089F781 /* FriendBookPlusTests.xctest */,
+				86C4FDEC1C3D76CA0089F781 /* FriendBookPlusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86C4FDCF1C3D76CA0089F781 /* FriendBookPlus */ = {
+			isa = PBXGroup;
+			children = (
+				86C4FDD01C3D76CA0089F781 /* AppDelegate.swift */,
+				86C4FDD21C3D76CA0089F781 /* FriendListViewController.swift */,
+				86C4FDFE1C3D7F7E0089F781 /* FriendDetailViewController.swift */,
+				86C4FE001C3D83690089F781 /* Friend.swift */,
+				86C4FDD41C3D76CA0089F781 /* Main.storyboard */,
+				86C4FDD71C3D76CA0089F781 /* Assets.xcassets */,
+				86C4FDD91C3D76CA0089F781 /* LaunchScreen.storyboard */,
+				86C4FDDC1C3D76CA0089F781 /* Info.plist */,
+			);
+			path = FriendBookPlus;
+			sourceTree = "<group>";
+		};
+		86C4FDE41C3D76CA0089F781 /* FriendBookPlusTests */ = {
+			isa = PBXGroup;
+			children = (
+				86C4FDE51C3D76CA0089F781 /* FriendBookPlusTests.swift */,
+				86C4FDE71C3D76CA0089F781 /* Info.plist */,
+			);
+			path = FriendBookPlusTests;
+			sourceTree = "<group>";
+		};
+		86C4FDEF1C3D76CA0089F781 /* FriendBookPlusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				86C4FDF01C3D76CA0089F781 /* FriendBookPlusUITests.swift */,
+				86C4FDF21C3D76CA0089F781 /* Info.plist */,
+			);
+			path = FriendBookPlusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86C4FDCC1C3D76CA0089F781 /* FriendBookPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86C4FDF51C3D76CA0089F781 /* Build configuration list for PBXNativeTarget "FriendBookPlus" */;
+			buildPhases = (
+				86C4FDC91C3D76CA0089F781 /* Sources */,
+				86C4FDCA1C3D76CA0089F781 /* Frameworks */,
+				86C4FDCB1C3D76CA0089F781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FriendBookPlus;
+			productName = FriendBookPlus;
+			productReference = 86C4FDCD1C3D76CA0089F781 /* FriendBookPlus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86C4FDE01C3D76CA0089F781 /* FriendBookPlusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86C4FDF81C3D76CA0089F781 /* Build configuration list for PBXNativeTarget "FriendBookPlusTests" */;
+			buildPhases = (
+				86C4FDDD1C3D76CA0089F781 /* Sources */,
+				86C4FDDE1C3D76CA0089F781 /* Frameworks */,
+				86C4FDDF1C3D76CA0089F781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86C4FDE31C3D76CA0089F781 /* PBXTargetDependency */,
+			);
+			name = FriendBookPlusTests;
+			productName = FriendBookPlusTests;
+			productReference = 86C4FDE11C3D76CA0089F781 /* FriendBookPlusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		86C4FDEB1C3D76CA0089F781 /* FriendBookPlusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86C4FDFB1C3D76CA0089F781 /* Build configuration list for PBXNativeTarget "FriendBookPlusUITests" */;
+			buildPhases = (
+				86C4FDE81C3D76CA0089F781 /* Sources */,
+				86C4FDE91C3D76CA0089F781 /* Frameworks */,
+				86C4FDEA1C3D76CA0089F781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86C4FDEE1C3D76CA0089F781 /* PBXTargetDependency */,
+			);
+			name = FriendBookPlusUITests;
+			productName = FriendBookPlusUITests;
+			productReference = 86C4FDEC1C3D76CA0089F781 /* FriendBookPlusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86C4FDC51C3D76CA0089F781 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Philip Bannon";
+				TargetAttributes = {
+					86C4FDCC1C3D76CA0089F781 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = E8D8W4KSYZ;
+					};
+					86C4FDE01C3D76CA0089F781 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = E8D8W4KSYZ;
+						TestTargetID = 86C4FDCC1C3D76CA0089F781;
+					};
+					86C4FDEB1C3D76CA0089F781 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = E8D8W4KSYZ;
+						TestTargetID = 86C4FDCC1C3D76CA0089F781;
+					};
+				};
+			};
+			buildConfigurationList = 86C4FDC81C3D76CA0089F781 /* Build configuration list for PBXProject "FriendBookPlus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86C4FDC41C3D76CA0089F781;
+			productRefGroup = 86C4FDCE1C3D76CA0089F781 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86C4FDCC1C3D76CA0089F781 /* FriendBookPlus */,
+				86C4FDE01C3D76CA0089F781 /* FriendBookPlusTests */,
+				86C4FDEB1C3D76CA0089F781 /* FriendBookPlusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86C4FDCB1C3D76CA0089F781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86C4FDDB1C3D76CA0089F781 /* LaunchScreen.storyboard in Resources */,
+				86C4FDD81C3D76CA0089F781 /* Assets.xcassets in Resources */,
+				86C4FDD61C3D76CA0089F781 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86C4FDDF1C3D76CA0089F781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86C4FDEA1C3D76CA0089F781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86C4FDC91C3D76CA0089F781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86C4FDD31C3D76CA0089F781 /* FriendListViewController.swift in Sources */,
+				86C4FDD11C3D76CA0089F781 /* AppDelegate.swift in Sources */,
+				86C4FDFF1C3D7F7E0089F781 /* FriendDetailViewController.swift in Sources */,
+				86C4FE011C3D83690089F781 /* Friend.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86C4FDDD1C3D76CA0089F781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86C4FDE61C3D76CA0089F781 /* FriendBookPlusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86C4FDE81C3D76CA0089F781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86C4FDF11C3D76CA0089F781 /* FriendBookPlusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86C4FDE31C3D76CA0089F781 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86C4FDCC1C3D76CA0089F781 /* FriendBookPlus */;
+			targetProxy = 86C4FDE21C3D76CA0089F781 /* PBXContainerItemProxy */;
+		};
+		86C4FDEE1C3D76CA0089F781 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86C4FDCC1C3D76CA0089F781 /* FriendBookPlus */;
+			targetProxy = 86C4FDED1C3D76CA0089F781 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		86C4FDD41C3D76CA0089F781 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86C4FDD51C3D76CA0089F781 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86C4FDD91C3D76CA0089F781 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86C4FDDA1C3D76CA0089F781 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86C4FDF31C3D76CA0089F781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86C4FDF41C3D76CA0089F781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86C4FDF61C3D76CA0089F781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FriendBookPlus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DogHouseSoftware.FriendBookPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		86C4FDF71C3D76CA0089F781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FriendBookPlus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DogHouseSoftware.FriendBookPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		86C4FDF91C3D76CA0089F781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FriendBookPlusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DogHouseSoftware.FriendBookPlusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FriendBookPlus.app/FriendBookPlus";
+			};
+			name = Debug;
+		};
+		86C4FDFA1C3D76CA0089F781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FriendBookPlusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DogHouseSoftware.FriendBookPlusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FriendBookPlus.app/FriendBookPlus";
+			};
+			name = Release;
+		};
+		86C4FDFC1C3D76CA0089F781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FriendBookPlusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DogHouseSoftware.FriendBookPlusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FriendBookPlus;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		86C4FDFD1C3D76CA0089F781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FriendBookPlusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DogHouseSoftware.FriendBookPlusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FriendBookPlus;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86C4FDC81C3D76CA0089F781 /* Build configuration list for PBXProject "FriendBookPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86C4FDF31C3D76CA0089F781 /* Debug */,
+				86C4FDF41C3D76CA0089F781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86C4FDF51C3D76CA0089F781 /* Build configuration list for PBXNativeTarget "FriendBookPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86C4FDF61C3D76CA0089F781 /* Debug */,
+				86C4FDF71C3D76CA0089F781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86C4FDF81C3D76CA0089F781 /* Build configuration list for PBXNativeTarget "FriendBookPlusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86C4FDF91C3D76CA0089F781 /* Debug */,
+				86C4FDFA1C3D76CA0089F781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86C4FDFB1C3D76CA0089F781 /* Build configuration list for PBXNativeTarget "FriendBookPlusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86C4FDFC1C3D76CA0089F781 /* Debug */,
+				86C4FDFD1C3D76CA0089F781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86C4FDC51C3D76CA0089F781 /* Project object */;
+}
