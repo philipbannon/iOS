@@ -22,8 +22,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         // Do any additional setup after loading the view, typically from a nib.
         self.tableView.dataSource = self
         self.tableView.delegate = self
-        
-//        makeSampleProduct()
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -64,22 +62,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
     }
     
-    func makeSampleProduct() {
-        let context = (UIApplication.sharedApplication().delegate as! AppDelegate).managedObjectContext
-        
-        let product = NSEntityDescription.insertNewObjectForEntityForName("Products", inManagedObjectContext: context) as! Products
-        
-        product.title = "A6 Shoes"
-        product.image = UIImageJPEGRepresentation(UIImage(named: "Butters-SPG.png")!, 1)
-
-        
-        do {
-            try context.save()
-        }catch {
-            print("oops")
-        }
-    }
-    
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         self.selectedProduct = self.products[indexPath.row]
         self.performSegueWithIdentifier("tableViewToDetailSegue", sender: self)
@@ -96,7 +78,5 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
 

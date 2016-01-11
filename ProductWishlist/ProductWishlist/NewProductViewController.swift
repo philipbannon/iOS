@@ -15,8 +15,6 @@ class NewProductViewController: UIViewController, UIImagePickerControllerDelegat
     @IBOutlet weak var storeTextField: UITextField!
     @IBOutlet weak var imageView: UIImageView!
     
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
